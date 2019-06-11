@@ -5,12 +5,9 @@ weight: 1
 keywords: [telemetry,tracing]
 ---
 
-After completing this task, you understand how to have your application participate in tracing,
-regardless of the language, framework, or platform you use to build your application.
 
-This task uses the [Bookinfo](/docs/examples/bookinfo/) sample as the example application.
 
-## Understanding what happened
+## Trace context propagation
 
 Although Istio proxies are able to automatically send spans, they need some hints to tie together the entire trace.
 Applications need to propagate the appropriate HTTP headers so that when the proxies send span information,
