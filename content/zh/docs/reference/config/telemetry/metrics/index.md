@@ -14,7 +14,7 @@ weight: 50
 
 *   **请求计数**（`istio_requests_total`）：这是一个用于累加每个由 Istio 代理所处理请求的 `COUNTER` 指标。
 
-*   **请求持续时间**（`istio_request_duration_seconds`）：这是一个用于测量请求的持续时间的 `DISTRIBUTION` 指标。
+*   **请求持续时间**（`istio_request_duration_milliseconds`）：这是一个用于测量请求的持续时间的 `DISTRIBUTION` 指标。
 
 *   **请求大小**（`istio_request_bytes`）：这是一个用于测量 HTTP 请求 body 大小的 `DISTRIBUTION` 指标。
 

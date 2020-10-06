@@ -14,7 +14,7 @@ Istio 为 HTTP、HTTP/2 和 GRPC 流量创建了下列指标：
 
 * **Request Count** （`istio_requests_total`）：这是一个 `COUNTER`，随着 Istio 代理处理的每个请求递增。
 
-* **Request Duration** （`istio_request_duration_seconds`）：这是一个 `DISTRIBUTION`，它测量请求的持续时间。
+* **Request Duration** （`istio_request_duration_milliseconds`）：这是一个 `DISTRIBUTION`，它测量请求的持续时间。
 
 * **Request Size** （`istio_request_bytes`）：这是一个 `DISTRIBUTION`，它测量 HTTP 请求的 body 大小。
 
